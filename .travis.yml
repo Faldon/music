@@ -32,7 +32,7 @@ matrix:
 branches:
     only:
         - master
-
+        
 before_install:
   - cd ..
   - git clone https://github.com/owncloud/core.git --depth 1 -b $OWNCLOUD
